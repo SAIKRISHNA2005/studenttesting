@@ -15,7 +15,8 @@ const FocusMode: React.FC<FocusModeProps> = ({ toggleFocusMode, focusMode }) => 
       >
         {/* Background Image */}
         <img
-          src="src\public\focus-bg.gif" // Ensure this file is placed inside 'public' folder
+          // src="src\public\focus-bg.gif" // Ensure this file is placed inside 'public' folder
+          src="https://s3-alpha-sig.figma.com/img/139c/e430/cb683d7d9d2d585fd3e46da43e5f9031?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pB2Y~YcJk51IJN5BknmoTAFdV7O6IEmgvqDifzGXlwsI2Fs7v9dIuX32saEDiuXs3TYMIrIPN-Jp8Ks7xZfWyf0WNGwxI8JVsGHTN4cvVNf~qewbO47aCcobOIonL1hQN793yeZh504QoPJTuRVRcMd2BHT9tocpyCdfJGX33vyaRes7H1NuGk8YGE0kmOOJuyVfd0UlLpX7HWwg8gfsrgiiF32EeuyJMGEBVqf47SZt766--3WN0x0Uiu1rR4R3Jrb1N1VDLvT4x0Ze0h98mje3sUQNDF6mxIrJ6nKUsHSq5wX43XKWYSDNw915yBRAbdZFRNqnMegoibGwTRWo~A__"
           alt="Focus Mode Background"
           className="absolute inset-0 w-full h-full object-cover opacity-90"
         />
