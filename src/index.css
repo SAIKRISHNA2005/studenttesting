@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Satoshi-Light;
+  src: url("src\public\fonts\Satoshi-Light.ttf");
+}
+
+@font-face {
+  font-family: Satoshi-Medium;
+  src: url("src/public/fonts/Satoshi-Medium.ttf");
+}
+
+@font-face {
+  font-family: Satoshi-Regular;
+  src: url("src\public\fonts\Satoshi-Regular.ttf");
+}
+
+@font-face {
+  font-family: Satoshi-Bold;
+  src: url("src\public\fonts\Satoshi-Bold.ttf");
+}
+
+@font-face {
+  font-family: Satoshi-Variable;
+  src: url("src/public/fonts/Satoshi-Variable.ttf");
+}
+
+@font-face {
+  font-family: Satoshi-Black;
+  src: url("src\public\fonts\Satoshi-Black.ttf");
+}
+
+@theme {
+  --font-SatoshiLight: Satoshi-Light,"sans-serif";
+  --font-SatoshiMedium: Satoshi-Medium,"sans-serif";
+  --font-SatoshiRegular: Satoshi-Regular,"sans-serif";
+  --font-SatoshiBold: Satoshi-Bold,"sans-serif";
+  --font-SatoshiVariable: Satoshi-Variable,"sans-serif";
+  --font-SatoshiBlack: Satoshi-Black,"sans-serif";
+}
